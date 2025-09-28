@@ -55,7 +55,7 @@ nav a.active {
   color: #b74b4b;
   border-bottom: 3px solid #b74b4b;
 }
-@media (max-width: 995px) {
+@media (max-width: 995%) {
   nav {
     position: absolute;
     display: none;
@@ -188,14 +188,14 @@ i {
   background-color: black;
   position: absolute;
   width: calc(100% + 8px);
-  height: 100%;
+  height: 60px;
   border-left: 3px solid black;
   right: -8;
   animation: cursor 0.6s infinite;
 }
 @keyframes cursor {
   to {
-    border-left: 3px solid #b74b4b;
+    border-left: 2px solid #b74b4b;
   }
 }
 @keyframes words {
